@@ -29,9 +29,6 @@ export default class Header extends React.Component {
                     <Nav.Link className={"js-scroll-trigger"} href="#platform" onClick={Scroller.handleAnchorScroll}>Platform</Nav.Link>
                   </li>
                   <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#portfolio" onClick={Scroller.handleAnchorScroll}>Portfolio</Nav.Link>
-                  </li>
-                  <li className="nav-item">
                     <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Donate</Nav.Link>
                   </li>
                 </Scrollspy>

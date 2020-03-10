@@ -70,7 +70,6 @@ export default class IndexPage extends React.Component {
                   <div className="row justify-content-center">
                     <div className="col-lg-10">
 
-                      <i className="fas fa-2x fa-graduation-cap"></i><br/>
                       <h5>Education</h5>
                       <br/><br/>
 
@@ -107,127 +106,124 @@ export default class IndexPage extends React.Component {
             <h2 className="text-center mt-0">Platform</h2>
             <hr className="divider my-4"/>
             <div className="row">
-              <div className="col-lg-3 col-md-6 text-center">
+
+              <div className="col-lg-12 col-md-6 text-center">
+
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
-                  <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                  <i className="fas fa-4x fa-notes-medical text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Healthcare Reform</h3>
+                  <p className="text-muted mb-0">
+                      We must make sure that all Americans have access to a public healthcare option,
+                      but Americans who want to keep their private health insurance should be able to do so.
+                      Establishing a low-cost public healthcare option that is accessible to all Americans will cause
+                      private health insurance providers lower their prices to compete.
+                      Such a reduction in overall prices of healthcare ensures access to essential care for all Americans,
+                      regardless of their socioeconomic status.
+                  </p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+
+                <div className="col-lg-12 col-md-6 text-center">
+
+                    <div className="mt-5">
+                        <i className="fas fa-4x fa-graduation-cap text-primary mb-4"></i>
+                        <h3 className="h4 mb-2">Reducing Student Loan Debt </h3>
+                        <p className="text-muted mb-0">
+                            Americans have approximately $1.6 Trillion in student loan debt, which inhibits economic growth.
+                            Federal student loans should be offered at 0% interest rates because the Federal Government should not profit
+                            from student loans. I want to fix the Public Service Loan Forgiveness Program, so applicants who have made a
+                            good faith effort to meet the program requirements have their student loan debt forgiven as promised.
+                            I support changing bankruptcy laws, so that student loan debt is treated like any other type of debt.
+                            Finally, I support changing the tax code, so after paying for the required amount of time, students have their
+                            student debt forgiven tax free.
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+
+                <div className="col-lg-12 col-md-6 text-center">
+
+                    <div className="mt-5">
+                        <i className="fas fa-4x fa-tree text-primary mb-4"></i>
+                        <h3 className="h4 mb-2">Tax Credits for Clean Energy </h3>
+                        <p className="text-muted mb-0">
+                            Climate Change is a real concern in America and across the World.
+                            The United States should be the world leader in clean energy technology development in the
+                            21st Century. This can be accomplished by giving tax credits for developing solar and wind
+                            energy sources. This will help create jobs in clean energy, create economic growth, and
+                            help protect the environment. We cannot afford to fall behind other countries in clean
+                            energy development if we want to remain the world’s leading economy in the 21st Century and
+                            beyond.
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+
+                <div className="col-lg-12 col-md-6 text-center">
+
+                    <div className="mt-5">
+                        <i className="fas fa-4x fa-wifi text-primary mb-4"></i>
+                        <h3 className="h4 mb-2">Internet Access </h3>
+                        <p className="text-muted mb-0">
+                            All Americans should be able to access the internet from their home.
+                            Internet access is crucial to education, work, healthcare, civic engagement, and nearly
+                            every area of life today. The Federal Government should partner with States and Localities
+                            to expand internet access.
+                        </p>
+                    </div>
                 </div>
-              </div>
+
+                <div className="col-lg-12 col-md-6 text-center">
+
+                    <div className="mt-5">
+                        <i className="fas fa-4x fa-info text-primary mb-4"></i>
+                        <h3 className="h4 mb-2">Second Amendment Rights and Safety Solutions </h3>
+                        <p className="text-muted mb-0">
+                            I support the rights of all law-abiding citizens to own firearms, including semi-automatic
+                            firearms. I also support passing legislation for universal background checks at the
+                            Federal level. Additionally, I support a 1% Federal Sales Tax on Ammunition, so that the
+                            revenue raised can fund violence prevention programs.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="col-lg-12 col-md-6 text-center">
+
+                    <div className="mt-5">
+                        <i className="fas fa-4x fa-first-aid text-primary mb-4"></i>
+                        <h3 className="h4 mb-2">Federal Decriminalization on Marijuana </h3>
+                        <p className="text-muted mb-0">
+                            The Federal Government should decriminalize marijuana and allow States to legalize it.
+                            The Federal Government is missing out on a huge source of tax revenue and wasting resources
+                            enforcing the prohibition on marijuana.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="col-lg-12 col-md-6 text-center">
+
+                    <div className="mt-5">
+                        <i className="fas fa-4x fa-flag-usa text-primary mb-4"></i>
+                        <h3 className="h4 mb-2">Supporting Veterans </h3>
+                        <p className="text-muted mb-0">
+                            We should increase Federal grants to help veterans start businesses.
+                            I want to ensure that all veterans in the private sector are aware of this potential source
+                            of business funding and that these grants are easily accessible to the men and women who
+                            served our Country. Additionally, we must make sure that veterans have access to the
+                            healthcare resources they need to thrive.
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
           </div>
         </section>
 
-        <section id="portfolio">
-          <div className="container-fluid p-0">
-            <div className="row no-gutters">
-              <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
-                  <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">
-                      Project Name
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
-                  <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">
-                      Project Name
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/3.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
-                  <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">
-                      Project Name
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="images/portfolio/fullsize/4.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
-                  <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">
-                      Project Name
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
-                  <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">
-                      Project Name
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/6.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
-                  <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
-                  <div className="portfolio-box-caption p-3">
-                    <div className="project-category text-white-50">
-                      Category
-                    </div>
-                    <div className="project-name">
-                      Project Name
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         <section className="page-section bg-dark text-white">
           <div className="container text-center">
-            <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+            <h2 className="mb-4">Donate to our Campaign!</h2>
+            <a className="btn btn-light btn-xl" href="https://paypal.com">Donate!</a>
           </div>
         </section>
 
@@ -237,9 +233,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
-                  email
-                  and we will get back to you as soon as possible!</p>
+                <p className="text-muted mb-5">Have Concerns?</p>
               </div>
             </div>
             <div className="row">
