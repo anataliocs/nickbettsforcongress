@@ -36,19 +36,67 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home"/>
-        <section className="page-section bg-primary" id="about">
+
+        <section className="page-section" id="services">
+          <div className="container">
+            <hr className="divider my-4"/>
+            <div className="row justify-content-center">
+
+              <div className="col-lg-8 text-center">
+              <p className="text-primary">
+                <strong>The United States of America were founded on the principles of
+                  Freedom, including rights to life, liberty, and the pursuit of happiness.</strong>
+              </p>
+
+              <p className="font-weight-light mb-5">
+
+                In the 21st Century, we must make sure that we continue to live up to these principles.
+                I will reach across party lines to search for bipartisan solutions that benefit all Americans.
+              </p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section className="page-section bg-primary" id="biography">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <h2 className="text-white mt-0">Biography</h2>
                 <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p>
+                <p className="text-white-50 mb-4">
+
+                  <div className="row justify-content-center">
+                    <div className="col-lg-10">
+
+                      <i className="fas fa-2x fa-graduation-cap"></i><br/>
+                      <h5>Education</h5>
+                      <br/><br/>
+
+
+                        <p>B.A., in History with a minor in Political Science, Virginia Commonwealth University (2011)</p>
+                        <p>M.A., in History, Virginia Commonwealth University (2013)</p>
+                        <p>J.D., Washington and Lee University School of Law (2019)</p>
+
+
+                    </div>
+                  </div><br/>
+
+
+                    <br/>
+                    Nicholas Betts has lived in Virginia virtually his entire adult life. He moved to Virginia when he was 18
+                    years old to attend Virginia Commonwealth University, where he met his wife, Lindsey Betts, during
+                    their Freshman year of college in 2008. Their relationship continued after college, they were married in
+                    2015, and they currently live in Lexington, Virginia. Nicholas has worked in construction and landscaping,
+                    as a graduate teaching assistant, a substitute teacher, a contract manager for a small family business,
+                    and now as a law clerk in Roanoke, Virginia. He knows what it is like to work hard and to achieve goals in
+                    the face of adversity. If elected to Congress to represent the 6 th District of Virginia, Nicholas Betts will
+                    fight hard for Freedom, and he will go to Washington to work, not to play politics.
+
+                </p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
-                   onClick={Scroller.handleAnchorScroll}>Get Started!</a>
+                   onClick={Scroller.handleAnchorScroll}>My Platform</a>
               </div>
             </div>
           </div>
@@ -56,7 +104,7 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="services">
           <div className="container">
-            <h2 className="text-center mt-0">At Your Service</h2>
+            <h2 className="text-center mt-0">Platform</h2>
             <hr className="divider my-4"/>
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
