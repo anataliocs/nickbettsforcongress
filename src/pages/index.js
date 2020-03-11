@@ -53,18 +53,19 @@ export default class IndexPage extends React.Component {
                 In the 21st Century, we must make sure that we continue to live up to these principles.
                 I will reach across party lines to search for bipartisan solutions that benefit all Americans.
               </p>
+                  <i className="fas fa-2x text-secondary fa-flag-usa"/>
               </div>
 
             </div>
           </div>
         </section>
 
-        <section className="page-section bg-primary" id="biography">
+        <section className="page-section bg-secondary" id="biography">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
                 <h2 className="text-white mt-0">Biography</h2>
-                <hr className="divider light my-4"/>
+                <hr className="divider my-4"/>
                 <p className="text-white-50 mb-4">
 
                   <div className="row justify-content-center">
@@ -94,24 +95,24 @@ export default class IndexPage extends React.Component {
                     fight hard for Freedom, and he will go to Washington to work, not to play politics.
 
                 </p>
-                <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
+                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#platform"
                    onClick={Scroller.handleAnchorScroll}>My Platform</a>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="page-section" id="services">
+        <section className="page-section" id="platform">
           <div className="container">
-            <h2 className="text-center mt-0">Platform</h2>
+            <h2 className="text-center mt-0 text-secondary">Platform</h2>
             <hr className="divider my-4"/>
             <div className="row">
 
               <div className="col-lg-12 col-md-6 text-center">
 
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-notes-medical text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Healthcare Reform</h3>
+                  <i className="fas fa-4x fa-notes-medical text-secondary mb-4"></i>
+                  <h3 className="h4 mb-2 text-primary">Healthcare Reform</h3>
                   <p className="text-muted mb-0">
                       We must make sure that all Americans have access to a public healthcare option,
                       but Americans who want to keep their private health insurance should be able to do so.
@@ -126,8 +127,8 @@ export default class IndexPage extends React.Component {
                 <div className="col-lg-12 col-md-6 text-center">
 
                     <div className="mt-5">
-                        <i className="fas fa-4x fa-graduation-cap text-primary mb-4"></i>
-                        <h3 className="h4 mb-2">Reducing Student Loan Debt </h3>
+                        <i className="fas fa-4x fa-graduation-cap text-secondary mb-4"></i>
+                        <h3 className="h4 mb-2 text-primary">Reducing Student Loan Debt </h3>
                         <p className="text-muted mb-0">
                             Americans have approximately $1.6 Trillion in student loan debt, which inhibits economic growth.
                             Federal student loans should be offered at 0% interest rates because the Federal Government should not profit
@@ -143,8 +144,8 @@ export default class IndexPage extends React.Component {
                 <div className="col-lg-12 col-md-6 text-center">
 
                     <div className="mt-5">
-                        <i className="fas fa-4x fa-tree text-primary mb-4"></i>
-                        <h3 className="h4 mb-2">Tax Credits for Clean Energy </h3>
+                        <i className="fas fa-4x fa-tree text-secondary mb-4"></i>
+                        <h3 className="h4 mb-2 text-primary">Tax Credits for Clean Energy </h3>
                         <p className="text-muted mb-0">
                             Climate Change is a real concern in America and across the World.
                             The United States should be the world leader in clean energy technology development in the
@@ -160,8 +161,8 @@ export default class IndexPage extends React.Component {
                 <div className="col-lg-12 col-md-6 text-center">
 
                     <div className="mt-5">
-                        <i className="fas fa-4x fa-wifi text-primary mb-4"></i>
-                        <h3 className="h4 mb-2">Internet Access </h3>
+                        <i className="fas fa-4x fa-wifi text-secondary mb-4"></i>
+                        <h3 className="h4 mb-2 text-primary">Internet Access </h3>
                         <p className="text-muted mb-0">
                             All Americans should be able to access the internet from their home.
                             Internet access is crucial to education, work, healthcare, civic engagement, and nearly
@@ -174,8 +175,8 @@ export default class IndexPage extends React.Component {
                 <div className="col-lg-12 col-md-6 text-center">
 
                     <div className="mt-5">
-                        <i className="fas fa-4x fa-info text-primary mb-4"></i>
-                        <h3 className="h4 mb-2">Second Amendment Rights and Safety Solutions </h3>
+                        <i className="fas fa-4x fa-info text-secondary mb-4"></i>
+                        <h3 className="h4 mb-2 text-primary">Second Amendment Rights and Safety Solutions </h3>
                         <p className="text-muted mb-0">
                             I support the rights of all law-abiding citizens to own firearms, including semi-automatic
                             firearms. I also support passing legislation for universal background checks at the
@@ -188,8 +189,8 @@ export default class IndexPage extends React.Component {
                 <div className="col-lg-12 col-md-6 text-center">
 
                     <div className="mt-5">
-                        <i className="fas fa-4x fa-first-aid text-primary mb-4"></i>
-                        <h3 className="h4 mb-2">Federal Decriminalization on Marijuana </h3>
+                        <i className="fas fa-4x fa-first-aid text-secondary mb-4"></i>
+                        <h3 className="h4 mb-2 text-primary">Federal Decriminalization on Marijuana </h3>
                         <p className="text-muted mb-0">
                             The Federal Government should decriminalize marijuana and allow States to legalize it.
                             The Federal Government is missing out on a huge source of tax revenue and wasting resources
@@ -201,8 +202,8 @@ export default class IndexPage extends React.Component {
                 <div className="col-lg-12 col-md-6 text-center">
 
                     <div className="mt-5">
-                        <i className="fas fa-4x fa-flag-usa text-primary mb-4"></i>
-                        <h3 className="h4 mb-2">Supporting Veterans </h3>
+                        <i className="fas fa-4x fa-flag-usa text-secondary mb-4"></i>
+                        <h3 className="h4 mb-2 text-primary">Supporting Veterans </h3>
                         <p className="text-muted mb-0">
                             We should increase Federal grants to help veterans start businesses.
                             I want to ensure that all veterans in the private sector are aware of this potential source
@@ -220,30 +221,30 @@ export default class IndexPage extends React.Component {
 
 
 
-        <section className="page-section bg-dark text-white">
+{/*        <section className="page-section bg-dark text-white">
           <div className="container text-center">
             <h2 className="mb-4">Donate to our Campaign!</h2>
             <a className="btn btn-light btn-xl" href="https://paypal.com">Donate!</a>
           </div>
-        </section>
+        </section>*/}
 
         <section className="page-section" id="contact">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="mt-0">Let's Get In Touch!</h2>
+                <h2 className="mt-0 text-secondary">Have Questions, Comments or Concerns?</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Have Concerns?</p>
+                <p className="text-muted mb-5">Please reach out!</p>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
-                <div>+1 (202) 555-0149</div>
+                <i className="fas fa-phone fa-3x mb-3 text-secondary"></i>
+                <div>+1 (804) 709-8331</div>
               </div>
               <div className="col-lg-4 mr-auto text-center">
-                <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                <i className="fas fa-envelope fa-3x mb-3 text-secondary"></i>
+                <a className="d-block" href="mailto:nicholas.betts@bettsforcongress.com">nicholas.betts@bettsforcongress.com</a>
               </div>
             </div>
           </div>

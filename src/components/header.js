@@ -29,7 +29,7 @@ export default class Header extends React.Component {
                     <Nav.Link className={"js-scroll-trigger"} href="#platform" onClick={Scroller.handleAnchorScroll}>Platform</Nav.Link>
                   </li>
                   <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Donate</Nav.Link>
+                    <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>
                   </li>
                 </Scrollspy>
               </Nav>
@@ -48,7 +48,7 @@ export default class Header extends React.Component {
               <div className="col-lg-8 align-self-baseline">
 
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#biography" onClick={Scroller.handleAnchorScroll}>
-                  <i className="fas fa-flag-usa"></i>&nbsp; For Freedom</a>
+                  <i className="fas fa-flag-usa"/>&nbsp; For Freedom</a>
 
               </div>
             </div>
