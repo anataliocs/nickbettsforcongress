@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Nicholas Betts for Congress 2020, 6th Congressional District of Virginia, United States House of Representatives `,
+    description: `Nicholas Betts for Congress 2020, 6th Congressional District of Virginia, United States House of Representatives `,
     author: `@gatsbyjs`,
   },
   plugins: [

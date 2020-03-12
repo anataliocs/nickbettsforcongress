@@ -63,7 +63,9 @@ export default class Layout extends React.Component {
         <footer className="bg-light py-5">
           <div className="container">
             <div className="small text-center text-muted">Copyright &copy;
-              2020 - NICHOLAS BETTS FOR CONGRESS 2020 CAMPAIGN</div>
+              2020 - NICHOLAS BETTS FOR CONGRESS 2020 CAMPAIGN<br/>
+              6th Congressional District of Virginia, United States House of Representatives
+            </div>
           </div>
         </footer>
       </div>

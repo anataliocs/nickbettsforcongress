@@ -53,6 +53,11 @@ export default class IndexPage extends React.Component {
                 In the 21st Century, we must make sure that we continue to live up to these principles.
                 I will reach across party lines to search for bipartisan solutions that benefit all Americans.
               </p>
+
+                  <p className="font-weight-light text-secondary mb-5">
+                  6th Congressional District of Virginia, United States House of Representatives
+                  </p>
+
                   <i className="fas fa-2x text-secondary fa-flag-usa"/>
               </div>
 
