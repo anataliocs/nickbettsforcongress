@@ -20,13 +20,16 @@ export default class Header extends React.Component {
             <Navbar.Collapse id="navbarResponsive">
               <Nav className="navbar-nav ml-auto my-2 my-lg-0">
                 <Scrollspy className="navbar-nav"
-                           items={["about", "services", "portfolio", "contact"]}
+                           items={["bio", "platform", "donate", "contact"]}
                            currentClassName="active" rootEl={"#mainNav"} offset={-75}>
                   <li className="nav-item">
                     <Nav.Link className={"js-scroll-trigger"} href="#biography" onClick={Scroller.handleAnchorScroll}>Bio</Nav.Link>
                   </li>
                   <li className="nav-item">
                     <Nav.Link className={"js-scroll-trigger"} href="#platform" onClick={Scroller.handleAnchorScroll}>Platform</Nav.Link>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Link className={"js-scroll-trigger"} href="#donate" onClick={Scroller.handleAnchorScroll}>Donate</Nav.Link>
                   </li>
                   <li className="nav-item">
                     <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>

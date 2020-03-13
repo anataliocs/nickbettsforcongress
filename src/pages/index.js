@@ -283,7 +283,7 @@ export default class IndexPage extends React.Component {
                 </section>
 
 
-                <section className="page-section bg-secondary text-white">
+                <section className="page-section bg-secondary text-white" id="donate">
                     <div className="container text-center">
 
                         <i className="fas fa-3x fa-donate"></i>
