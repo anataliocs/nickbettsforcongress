@@ -283,11 +283,11 @@ export default class IndexPage extends React.Component {
                 </section>
 
 
-                <section className="page-section bg-secondary text-white" id="donate">
+                <section className="page-section bg-secondary" id="donate">
                     <div className="container text-center">
 
-                        <i className="fas fa-3x fa-donate"></i>
-                        <h2 className="mb-4">Donate to our Campaign!</h2>
+                        <i className="fas fa-3x fa-donate text-white-75"></i>
+                        <h2 className="text-white-75 mb-4">Donate to our Campaign!</h2>
                         <hr className="divider my-4"/>
 
                         <div className="row justify-content-center">
@@ -303,7 +303,7 @@ export default class IndexPage extends React.Component {
                                 </p>
 
                                 <br/>
-                                <p className="text-muted mb-0">
+                                <p className="text-muted text-primary mb-0"><i>
                                     Please make sure to include your Name, Address, Employer, and Occupation with any
                                     donations
                                     for
@@ -312,6 +312,7 @@ export default class IndexPage extends React.Component {
                                     Before donating make sure that you comply with all Federal, State, and Local Laws
                                     and
                                     Regulations.
+                                </i>
                                 </p><br/>
 
                                 <hr className="divider my-4"/>
