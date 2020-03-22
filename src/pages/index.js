@@ -302,14 +302,14 @@ export default class IndexPage extends React.Component {
                                     </h6>
                                 </p>
 
-                                <br/>
-                                <p className="text-muted mb-0">
+                                <br/><br/>
+                                <div className="text-white font-italic mb-0">
                                     Please make sure to include your Name, Address, Employer, and Occupation with any
                                     donations for Federal Election Commission and Campaign Finance reporting purposes.
 
                                     Before donating make sure that you comply with all Federal, State, and Local Laws
                                     and Regulations.
-                                </p><br/>
+                                </div><br/>
 
                                 <hr className="divider my-4"/>
 
