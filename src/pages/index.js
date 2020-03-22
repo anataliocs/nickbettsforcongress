@@ -303,7 +303,7 @@ export default class IndexPage extends React.Component {
                                 </p>
 
                                 <br/>
-                                <p className="text-primary mb-0"><i>
+                                <p className="text-white-75 mb-0"><i>
                                     Please make sure to include your Name, Address, Employer, and Occupation with any
                                     donations for Federal Election Commission and Campaign Finance reporting purposes.
 
