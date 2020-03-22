@@ -46,7 +46,7 @@ export default class IndexPage extends React.Component {
                         <div className="row justify-content-center">
                             <div className="col-lg-8 text-center">
                                 <p className="text-primary">
-                                    <strong>The United States of America were founded on the principles of
+                                    <strong>The United States of America was founded on the principles of
                                         Freedom, including rights to life, liberty, and the pursuit of
                                         happiness.</strong>
                                 </p>
@@ -157,7 +157,7 @@ export default class IndexPage extends React.Component {
                                         do so.
                                         Establishing a low-cost public healthcare option that is accessible to all
                                         Americans will cause
-                                        private health insurance providers lower their prices to compete.
+                                        private health insurance providers to lower their prices to compete.
                                         Such a reduction in overall prices of healthcare ensures access to essential
                                         care for all Americans,
                                         regardless of their socioeconomic status.
@@ -303,15 +303,12 @@ export default class IndexPage extends React.Component {
                                 </p>
 
                                 <br/>
-                                <p className="text-muted text-primary mb-0"><i>
+                                <p className="text-primary mb-0"><i>
                                     Please make sure to include your Name, Address, Employer, and Occupation with any
-                                    donations
-                                    for
-                                    Federal Election Commission and Campaign Finance reporting purposes.
+                                    donations for Federal Election Commission and Campaign Finance reporting purposes.
 
                                     Before donating make sure that you comply with all Federal, State, and Local Laws
-                                    and
-                                    Regulations.
+                                    and Regulations.
                                 </i>
                                 </p><br/>
 
