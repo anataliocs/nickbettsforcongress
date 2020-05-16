@@ -76,6 +76,10 @@ export default class Layout extends React.Component {
                   <i className="fab fa-facebook-square"></i></a>
               </h2>
             </div>
+
+            <div className="text-center well">
+                <strong>Paid for by NICHOLAS BETTS FOR CONGRESS</strong>
+            </div>
           </div>
         </footer>
       </div>

@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
+import Scrollspy from "react-scrollspy";
 
 export default class IndexPage extends React.Component {
     constructor(props) {
@@ -36,6 +37,82 @@ export default class IndexPage extends React.Component {
         return (
             <Layout>
                 <SEO title="Home"/>
+
+                <section className="page-section bg-secondary" id="donate">
+                    <div className="container text-center">
+
+                        <i className="fas fa-3x fa-donate text-white-75"></i>
+                        <h2 className="text-white-75 mb-4">Donate to our Campaign!</h2>
+                        <hr className="divider my-4"/>
+
+                        <div className="row justify-content-center">
+
+                            <div className="col-lg-8 col-md-6 text-center">
+
+                                <p className="text-muted mb-0">
+                                    <h3>Donate Online:</h3>
+                                    <br/>
+                                </p>
+
+                                <div className="btn-group-lg">
+
+                                    <a className="btn btn-primary btn-xl"
+                                       href="https://secure.actblue.com/donate/nicholas-betts-for-congress-1?amount=25&refcode=website_donate_25&express_lane=true"
+                                       target="_blank" rel="noopener noreferrer">
+                                        <i className="fas fa-donate"/>&nbsp; $25</a>
+
+
+                                    <a className="btn btn-primary btn-xl"
+                                       href="https://secure.actblue.com/donate/nicholas-betts-for-congress-1?amount=100&refcode=website_donate_100&express_lane=true"
+                                       target="_blank" rel="noopener noreferrer">
+                                        <i className="fas fa-donate"/>&nbsp; $100</a>
+
+
+                                    <a className="btn btn-primary btn-xl"
+                                       href="https://secure.actblue.com/donate/nicholas-betts-for-congress-1?amount=250&refcode=website_donate_250&express_lane=true"
+                                       target="_blank" rel="noopener noreferrer">
+                                        <i className="fas fa-donate"/>&nbsp; $250</a>
+
+                                </div>
+                                <br/>
+
+                                <p className="text-muted mb-0">
+                                    <br/>
+                                    If you would like to donate via U.S. Mail, please make any checks payable to:
+                                    <br/>
+                                    <h6 className="h4 mb-2">
+                                        <strong>NICHOLAS BETTS FOR CONGRESS</strong>
+                                    </h6>
+                                </p>
+
+                                <br/><br/>
+                                <div className="text-white font-italic mb-0">
+                                    Please make sure to include your Name, Address, Employer, and Occupation with any
+                                    donations for Federal Election Commission and Campaign Finance reporting purposes.
+
+                                    Before donating make sure that you comply with all Federal, State, and Local Laws
+                                    and Regulations.
+                                </div><br/>
+
+                                <hr className="divider my-4"/>
+
+
+                                <p className="text-white-75 mb-0">
+                                    Please send donations to <strong>NICHOLAS BETTS FOR CONGRESS</strong>:
+                                    <br/>
+                                </p>
+
+                                <br/>
+                                <p className="text-white-75 mb-0">
+                                    <i className="far fa-2x fa-envelope"></i><br/>
+                                    P.O. Box 614
+                                    Lexington, Virginia 24450
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <section className="page-section" id="services">
                     <div className="container">
@@ -278,55 +355,6 @@ export default class IndexPage extends React.Component {
                             </div>
 
 
-                        </div>
-                    </div>
-                </section>
-
-
-                <section className="page-section bg-secondary" id="donate">
-                    <div className="container text-center">
-
-                        <i className="fas fa-3x fa-donate text-white-75"></i>
-                        <h2 className="text-white-75 mb-4">Donate to our Campaign!</h2>
-                        <hr className="divider my-4"/>
-
-                        <div className="row justify-content-center">
-
-                            <div className="col-lg-8 col-md-6 text-center">
-
-                                <p className="text-muted mb-0">
-                                    If you would like to donate, please make any checks payable to:
-                                    <br/>
-                                    <h6 className="h4 mb-2">
-                                        <strong>NICHOLAS BETTS FOR CONGRESS</strong>
-                                    </h6>
-                                </p>
-
-                                <br/><br/>
-                                <div className="text-white font-italic mb-0">
-                                    Please make sure to include your Name, Address, Employer, and Occupation with any
-                                    donations for Federal Election Commission and Campaign Finance reporting purposes.
-
-                                    Before donating make sure that you comply with all Federal, State, and Local Laws
-                                    and Regulations.
-                                </div><br/>
-
-                                <hr className="divider my-4"/>
-
-
-                                <p className="text-muted mb-0">
-                                    Please send donations to <strong>NICHOLAS BETTS FOR CONGRESS</strong>:
-                                    <br/>
-                                </p>
-
-                                <br/>
-                                <p className="text-muted mb-0">
-                                    <i className="far fa-2x fa-envelope"></i><br/>
-                                    P.O. Box 614
-                                    Lexington, Virginia 24450
-                                </p>
-
-                            </div>
                         </div>
                     </div>
                 </section>
