@@ -49,9 +49,14 @@ export default class IndexPage extends React.Component {
 
                             <div className="col-lg-8 col-md-6 text-center">
 
-                                <p className="text-muted mb-0">
-                                    <h3>Donate Online:</h3>
+                                <p className="text-white-50 mb-0">
+                                    <h3>Support NICHOLAS BETTS for Congress in VA-6:</h3>
                                     <br/>
+                                </p>
+
+                                <p className="text-muted">
+                                    Click an option below to get started with your online donation through ActBlue.
+                                    Your donation will help support our campaign.
                                 </p>
 
                                 <div className="btn-group-lg">
@@ -61,26 +66,28 @@ export default class IndexPage extends React.Component {
                                        target="_blank" rel="noopener noreferrer">
                                         <i className="fas fa-donate"/>&nbsp; $25</a>
 
-
                                     <a className="btn btn-primary btn-xl"
                                        href="https://secure.actblue.com/donate/nicholas-betts-for-congress-1?amount=100&refcode=website_donate_100&express_lane=true"
                                        target="_blank" rel="noopener noreferrer">
                                         <i className="fas fa-donate"/>&nbsp; $100</a>
-
 
                                     <a className="btn btn-primary btn-xl"
                                        href="https://secure.actblue.com/donate/nicholas-betts-for-congress-1?amount=250&refcode=website_donate_250&express_lane=true"
                                        target="_blank" rel="noopener noreferrer">
                                         <i className="fas fa-donate"/>&nbsp; $250</a>
 
+                                    <a className="btn btn-light btn-xl"
+                                       href="https://secure.actblue.com/donate/nicholas-betts-for-congress-1"
+                                       target="_blank" rel="noopener noreferrer">
+                                        <i className="fas fa-donate"/>&nbsp; Donate</a>
                                 </div>
                                 <br/>
 
-                                <p className="text-muted mb-0">
+                                <p className="text-white-75 mb-0">
                                     <br/>
                                     If you would like to donate via U.S. Mail, please make any checks payable to:
                                     <br/>
-                                    <h6 className="h4 mb-2">
+                                    <h6 className="text-white-75 h4 mb-2">
                                         <strong>NICHOLAS BETTS FOR CONGRESS</strong>
                                     </h6>
                                 </p>
