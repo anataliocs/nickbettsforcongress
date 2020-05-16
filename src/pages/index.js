@@ -42,14 +42,14 @@ export default class IndexPage extends React.Component {
                     <div className="container text-center">
 
                         <i className="fas fa-3x fa-donate text-white-75"></i>
-                        <h2 className="text-white-75 mb-4">Donate to our Campaign!</h2>
+                        <h2 className="text-white mb-4">Donate to our Campaign!</h2>
                         <hr className="divider my-4"/>
 
                         <div className="row justify-content-center">
 
                             <div className="col-lg-8 col-md-6 text-center">
 
-                                <p className="text-white-50 mb-0">
+                                <p className="text-white-75 mb-0">
                                     <h3>Support NICHOLAS BETTS for Congress in VA-6:</h3>
                                     <br/>
                                 </p>
@@ -83,11 +83,11 @@ export default class IndexPage extends React.Component {
                                 </div>
                                 <br/>
 
-                                <p className="text-white-75 mb-0">
+                                <p className="text-white mb-0">
                                     <br/>
                                     If you would like to donate via U.S. Mail, please make any checks payable to:
                                     <br/>
-                                    <h6 className="text-white-75 h4 mb-2">
+                                    <h6 className="text-white h4 mb-2">
                                         <strong>NICHOLAS BETTS FOR CONGRESS</strong>
                                     </h6>
                                 </p>
@@ -104,13 +104,13 @@ export default class IndexPage extends React.Component {
                                 <hr className="divider my-4"/>
 
 
-                                <p className="text-white-75 mb-0">
+                                <p className="text-white mb-0">
                                     Please send donations to <strong>NICHOLAS BETTS FOR CONGRESS</strong>:
                                     <br/>
                                 </p>
 
                                 <br/>
-                                <p className="text-white-75 mb-0">
+                                <p className="text-white mb-0">
                                     <i className="far fa-2x fa-envelope"></i><br/>
                                     P.O. Box 614
                                     Lexington, Virginia 24450
