@@ -49,15 +49,18 @@ export default class IndexPage extends React.Component {
 
                             <div className="col-lg-8 col-md-6 text-center">
 
-                                <p className="text-white-75 mb-0">
+                                <div className="text-white-75 mb-0">
                                     <h3>Support NICHOLAS BETTS for Congress in VA-6:</h3>
                                     <br/>
-                                </p>
+                                </div>
 
-                                <p className="text-muted">
-                                    Click an option below to get started with your online donation through ActBlue.
-                                    Your donation will help support our campaign.
-                                </p>
+                                <div className="text-muted">
+                                    <i>
+                                        Click an option below to get started with your online donation through ActBlue.
+                                        Your donation will help support our campaign.
+                                    </i>
+                                </div>
+                                <br/>
 
                                 <div className="btn-group-lg">
 
@@ -82,18 +85,19 @@ export default class IndexPage extends React.Component {
                                         <i className="fas fa-donate"/>&nbsp; Donate</a>
                                 </div>
                                 <br/>
+                                <hr className="divider my-4"/>
 
-                                <p className="text-white mb-0">
+                                <div className="text-white-75">
                                     <br/>
                                     If you would like to donate via U.S. Mail, please make any checks payable to:
                                     <br/>
-                                    <h6 className="text-white h4 mb-2">
+                                    <h6>
                                         <strong>NICHOLAS BETTS FOR CONGRESS</strong>
                                     </h6>
-                                </p>
+                                </div>
 
                                 <br/><br/>
-                                <div className="text-white font-italic mb-0">
+                                <div className="text-white-75">
                                     Please make sure to include your Name, Address, Employer, and Occupation with any
                                     donations for Federal Election Commission and Campaign Finance reporting purposes.
 
@@ -104,17 +108,17 @@ export default class IndexPage extends React.Component {
                                 <hr className="divider my-4"/>
 
 
-                                <p className="text-white mb-0">
+                                <div className="text-white-75">
                                     Please send donations to <strong>NICHOLAS BETTS FOR CONGRESS</strong>:
                                     <br/>
-                                </p>
+                                </div>
 
                                 <br/>
-                                <p className="text-white mb-0">
+                                <div className="text-white">
                                     <i className="far fa-2x fa-envelope"></i><br/>
                                     P.O. Box 614
                                     Lexington, Virginia 24450
-                                </p>
+                                </div>
 
                             </div>
                         </div>
