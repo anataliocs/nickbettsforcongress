@@ -256,7 +256,7 @@ export default class IndexPage extends React.Component {
                             <div className="col-lg-8 col-md-6 text-center">
 
                                 <div className="mt-5">
-                                    <i className="fas fa-4x fa-graduation-cap"></i>
+                                    <i className="fas fa-4x fa-graduation-cap text-secondary"></i>
                                     <h3 className="h4 mb-2 text-primary">Education Reform </h3>
                                     <p className="text-muted mb-0">
                                         We need to increase the Federal Government’s Investment in education.
@@ -355,7 +355,7 @@ export default class IndexPage extends React.Component {
                             <div className="col-lg-8 col-md-6 text-center">
 
                                 <div className="mt-5">
-                                    <i className="fas fa-4x fa-rainbow"></i>
+                                    <i className="fas fa-4x fa-rainbow text-secondary"></i>
                                     <h3 className="h4 mb-2 text-primary">Federal Laws to Protect the LGBTQ+ Community </h3>
                                     <p className="text-muted mb-0">
                                         All Americans should be free to live their lives without being discriminated against,
