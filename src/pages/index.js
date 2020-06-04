@@ -256,6 +256,26 @@ export default class IndexPage extends React.Component {
                             <div className="col-lg-8 col-md-6 text-center">
 
                                 <div className="mt-5">
+                                    <i className="fas fa-4x fa-graduation-cap"></i>
+                                    <h3 className="h4 mb-2 text-primary">Education Reform </h3>
+                                    <p className="text-muted mb-0">
+                                        We need to increase the Federal Government’s Investment in education.
+                                        Funding education is crucial to America maintaining its position as the world
+                                        leader in the 21st Century and beyond. Education affects everything from Economic
+                                        Growth to National Defense. We need to invest in an expansion of public early
+                                        childhood education programs and we should increase investments in public K-12
+                                        education to increase teachers‘ salaries, as well as to hire more teachers to
+                                        decrease classroom sizes. We should increase Federal program funding in order
+                                        to increase program accessibility for Americans who want to pursue career and
+                                        technical education. Additionally, higher education should be made affordable
+                                        and accessible for everyone who chooses to pursue it.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-8 col-md-6 text-center">
+
+                                <div className="mt-5">
                                     <i className="fas fa-4x fa-graduation-cap text-secondary mb-4"></i>
                                     <h3 className="h4 mb-2 text-primary">Reducing Student Loan Debt </h3>
                                     <p className="text-muted mb-0">
@@ -328,6 +348,19 @@ export default class IndexPage extends React.Component {
                                         Federal level. Additionally, I support a 1% Federal Sales Tax on Ammunition, so
                                         that the
                                         revenue raised can fund violence prevention programs.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-8 col-md-6 text-center">
+
+                                <div className="mt-5">
+                                    <i className="fas fa-4x fa-rainbow"></i>
+                                    <h3 className="h4 mb-2 text-primary">Federal Laws to Protect the LGBTQ+ Community </h3>
+                                    <p className="text-muted mb-0">
+                                        All Americans should be free to live their lives without being discriminated against,
+                                        regardless of who they love or how they identify. We must pass laws which explicitly prohibit
+                                        discrimination based on sexual orientation or gender identity.
                                     </p>
                                 </div>
                             </div>
