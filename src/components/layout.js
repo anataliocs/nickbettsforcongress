@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
 import "./layout.scss"
+import {Link} from "@reach/router";
 
 const getScrollNode = (element) => {
   return element.ownerDocument.scrollingElement || element.ownerDocument.documentElement
@@ -70,15 +71,19 @@ export default class Layout extends React.Component {
             <br/>
             <div className="text-center text-muted">
               <h2>
-                <a href="https://twitter.com/VoteForBetts">
+                <a href="https://twitter.com/VoteForBetts" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-twitter-square"></i></a>&nbsp;
-                <a href="https://www.facebook.com/NicholasBettsCongress/">
+                <a href="https://www.facebook.com/NicholasBettsCongress/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-facebook-square"></i></a>
               </h2>
             </div>
 
             <div className="text-center well">
                 <strong>Paid for by NICHOLAS BETTS FOR CONGRESS</strong>
+            </div><br/>
+
+            <div className="text-center well">
+              <a href="/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
             </div>
           </div>
         </footer>

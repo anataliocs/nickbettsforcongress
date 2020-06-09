@@ -36,7 +36,8 @@ export default class IndexPage extends React.Component {
     render() {
         return (
             <Layout>
-                <SEO title="Home"/>
+                <SEO title="NICHOLAS BETTS FOR CONGRESS 2020 CAMPAIGN
+             6th Congressional District of Virginia, United States House of Representatives"/>
 
                 <section className="page-section bg-secondary" id="donate">
                     <div className="container text-center">
@@ -118,6 +119,17 @@ export default class IndexPage extends React.Component {
                                     <i className="far fa-2x fa-envelope"></i><br/>
                                     P.O. Box 614
                                     Lexington, Virginia 24450
+                                </div>
+
+                                <br/>
+
+                                <hr className="divider my-4"/>
+
+                                <i className="fas fa-2x fa-hands-helping text-primary"></i>
+
+                                <div className="text-white">
+                                    <a href="https://forms.gle/nvJy2TmeHPYp88Zm8" target="_blank" rel="noopener noreferrer">
+                                        Volunteer for our Campaign!</a>
                                 </div>
 
                             </div>
@@ -421,6 +433,12 @@ export default class IndexPage extends React.Component {
                                 <i className="fas fa-envelope fa-3x mb-3 text-secondary"></i>
                                 <a className="d-block"
                                    href="mailto:nicholas.betts@bettsforcongress.com">nicholas.betts@bettsforcongress.com</a>
+                            </div>
+                            <div className="col-lg-4 mr-auto text-center">
+                                <i className="fas fa-hands-helping fa-3x mb-3 text-secondary"></i>
+                                <a className="d-block"
+                                   href="https://forms.gle/7meLEw5DPm8trdAp7" target="_blank" rel="noopener noreferrer">
+                                    Sign up with the Campaign!</a>
                             </div>
                         </div>
                     </div>
