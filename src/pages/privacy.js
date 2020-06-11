@@ -1,8 +1,7 @@
 import React from "react"
 import {graphql} from "gatsby"
 import SEO from "../components/seo"
-
-import Container from "react-bootstrap/Container";
+import LightLayout from "../components/lightlayout";
 
 export default class PrivacyPage extends React.Component {
     constructor(props) {
@@ -11,7 +10,7 @@ export default class PrivacyPage extends React.Component {
 
     render() {
         return (
-            <Container>
+            <LightLayout>
                 <SEO title="Privacy Policy"/>
 
                 <section className="page-section" id="services">
@@ -152,11 +151,12 @@ export default class PrivacyPage extends React.Component {
                                     <strong>Information We Collect from Other Sources</strong><br/>
 
                                     We work with other Democratic and progressive organizations and PACs to support our campaign. We may receive voter file data from state parties and other Democratic organizations, from publicly available sources, and from private organizations.
+                                </p>
 
+                                <p className="font-weight-light mb-5">
                                     <strong>Security</strong><br/>
 
                                     While no electronic data storage can be absolutely guaranteed safe, we use reasonable measures to safeguard your information. Despite these measures, we cannot ensure or warrant the security of any information that we collect and maintain.
-
                                 </p>
 
                                 <p className="font-weight-light mb-5">
@@ -240,7 +240,7 @@ export default class PrivacyPage extends React.Component {
                     </div>
                 </section>
 
-            </Container>
+            </LightLayout>
         )
     }
 }

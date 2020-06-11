@@ -33,6 +33,10 @@ export default class Header extends React.Component {
                     <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>
                   </li>
 
+                  <li className="nav-item">
+                    <Nav.Link href="/news/" target="_blank">News</Nav.Link>
+                  </li>
+
                   <a className="btn btn-primary btn-lg js-scroll-trigger" href="#donate" onClick={Scroller.handleAnchorScroll}>
                     <i className="fas fa-donate"/>&nbsp; Donate</a>
 
