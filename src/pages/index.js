@@ -1,13 +1,9 @@
 import React from "react"
 import {graphql} from "gatsby"
-import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Scroller from "../components/scroller"
-import PortfolioModal from "../components/portfolio/modal"
-import PortfolioCarousel from "../components/portfolio/carousel"
-import Scrollspy from "react-scrollspy";
 
 export default class IndexPage extends React.Component {
     constructor(props) {
@@ -429,12 +425,12 @@ export default class IndexPage extends React.Component {
                                 <i className="fas fa-phone fa-3x mb-3 text-secondary"></i>
                                 <div>+1 (804) 709-8331</div>
                             </div>
-                            <div className="col-lg-4 mr-auto text-center">
+                            <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                                 <i className="fas fa-envelope fa-3x mb-3 text-secondary"></i>
                                 <a className="d-block"
                                    href="mailto:nicholas.betts@bettsforcongress.com">nicholas.betts@bettsforcongress.com</a>
                             </div>
-                            <div className="col-lg-4 mr-auto text-center">
+                            <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                                 <i className="fas fa-hands-helping fa-3x mb-3 text-secondary"></i>
                                 <a className="d-block"
                                    href="https://forms.gle/7meLEw5DPm8trdAp7" target="_blank" rel="noopener noreferrer">
@@ -443,9 +439,6 @@ export default class IndexPage extends React.Component {
                         </div>
                     </div>
                 </section>
-                <PortfolioModal show={this.state.modalShow} onHide={() => this.setModal(false, 0)}>
-                    <PortfolioCarousel images={this.props.data.images.edges} current={this.state.modalCurrent}/>
-                </PortfolioModal>
             </Layout>
         )
     }
