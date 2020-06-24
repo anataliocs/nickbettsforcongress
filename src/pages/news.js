@@ -44,6 +44,11 @@ export default class IndexPage extends React.Component {
                                     <a href="https://www.roanoke.com/news/local/no-democrat-to-oppose-rep-morgan-griffith-but-one-emerges-for-rep-ben-cline/article_c9335e6f-5243-58df-8ede-25e91e3d6db0.html"
                                        target="_blank" rel="noopener noreferrer">Roanoke.com: No Democrat to oppose Rep. Morgan Griffith, but one emerges for Rep. Ben Cline</a>
                                 </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://fincastleherald.com/betts-is-democratic-candidate-for-sixth-district-house-of-representatives-race/"
+                                       target="_blank" rel="noopener noreferrer">Betts is Democratic candidate for Sixth District House of Representatives race</a>
+                                </p>
                             </div>
                         </div>
                     </div>
