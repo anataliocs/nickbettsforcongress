@@ -100,7 +100,8 @@ export default class IndexPage extends React.Component {
 
                                     Before donating make sure that you comply with all Federal, State, and Local Laws
                                     and Regulations.
-                                </div><br/>
+                                </div>
+                                <br/>
 
                                 <hr className="divider my-4"/>
 
@@ -124,7 +125,8 @@ export default class IndexPage extends React.Component {
                                 <i className="fas fa-2x fa-hands-helping text-primary"></i>
 
                                 <div className="text-white">
-                                    <a href="https://forms.gle/nvJy2TmeHPYp88Zm8" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://forms.gle/nvJy2TmeHPYp88Zm8" target="_blank"
+                                       rel="noopener noreferrer">
                                         Volunteer for our Campaign!</a>
                                 </div>
 
@@ -269,7 +271,8 @@ export default class IndexPage extends React.Component {
                                     <p className="text-muted mb-0">
                                         We need to increase the Federal Government’s Investment in education.
                                         Funding education is crucial to America maintaining its position as the world
-                                        leader in the 21st Century and beyond. Education affects everything from Economic
+                                        leader in the 21st Century and beyond. Education affects everything from
+                                        Economic
                                         Growth to National Defense. We need to invest in an expansion of public early
                                         childhood education programs and we should increase investments in public K-12
                                         education to increase teachers‘ salaries, as well as to hire more teachers to
@@ -364,10 +367,13 @@ export default class IndexPage extends React.Component {
 
                                 <div className="mt-5">
                                     <i className="fas fa-4x fa-rainbow text-secondary"></i>
-                                    <h3 className="h4 mb-2 text-primary">Federal Laws to Protect the LGBTQ+ Community </h3>
+                                    <h3 className="h4 mb-2 text-primary">Federal Laws to Protect the LGBTQ+
+                                        Community </h3>
                                     <p className="text-muted mb-0">
-                                        All Americans should be free to live their lives without being discriminated against,
-                                        regardless of who they love or how they identify. We must pass laws which explicitly prohibit
+                                        All Americans should be free to live their lives without being discriminated
+                                        against,
+                                        regardless of who they love or how they identify. We must pass laws which
+                                        explicitly prohibit
                                         discrimination based on sexual orientation or gender identity.
                                     </p>
                                 </div>
@@ -406,6 +412,23 @@ export default class IndexPage extends React.Component {
                                 </div>
                             </div>
 
+                            <div className="col-lg-8 col-md-6 text-center">
+
+                                <div className="mt-5">
+                                    <i className="fas fa-4x fa-school text-secondary mb-4"></i>
+                                    <h3 className="h4 mb-2 text-primary">Police Training </h3>
+                                    <p className="text-muted mb-0">
+                                        I believe that properly training police officers can save lives.
+                                        Police departments should review their training programs and make sure
+                                        that police officers have extensive training on not using unnecessary
+                                        force and how to prevent or stop other police officers from using it.
+                                        Better training will not address all situations, but this is an area where
+                                        positive changes can be a step toward helping to build stronger and safer
+                                        communities. The Federal government should develop a training program that
+                                        can be utilized by local police departments.
+                                    </p>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -434,7 +457,7 @@ export default class IndexPage extends React.Component {
                                 <i className="fas fa-hands-helping fa-3x mb-3 text-secondary"></i>
                                 <a className="d-block"
                                    href="https://forms.gle/7meLEw5DPm8trdAp7" target="_blank" rel="noopener noreferrer">
-                                    Sign up with the Campaign!</a>
+                                    Volunteer!</a>
                             </div>
                         </div>
                     </div>
