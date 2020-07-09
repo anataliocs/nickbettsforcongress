@@ -416,16 +416,44 @@ export default class IndexPage extends React.Component {
 
                                 <div className="mt-5">
                                     <i className="fas fa-4x fa-school text-secondary mb-4"></i>
-                                    <h3 className="h4 mb-2 text-primary">Police Training </h3>
+                                    <h3 className="h4 mb-2 text-primary">Police Reform </h3>
                                     <p className="text-muted mb-0">
-                                        I believe that properly training police officers can save lives.
-                                        Police departments should review their training programs and make sure
-                                        that police officers have extensive training on not using unnecessary
-                                        force and how to prevent or stop other police officers from using it.
-                                        Better training will not address all situations, but this is an area where
-                                        positive changes can be a step toward helping to build stronger and safer
-                                        communities. The Federal government should develop a training program that
-                                        can be utilized by local police departments.
+                                        I believe that properly training police officers can save lives. Police departments
+                                        should review their training programs and make sure that police officers have extensive
+                                        training on not using unnecessary force and how to prevent or stop other police officers
+                                        from using it. Better training will not address all situations, but this is an area where
+                                        positive changes can be a step toward helping to build stronger and safer communities.
+                                        The Federal government should develop a training program that can be utilized by local
+                                        police departments. There should be increased transparency through federally mandated body
+                                        camera usage and reporting of statistics regarding police department use of force.
+                                        I support a national database of police misconduct.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-8 col-md-6 text-center">
+
+                                <div className="mt-5">
+                                    <i className="fas fa-4x fa-clinic-medical text-secondary mb-4"></i>
+                                    <h3 className="h4 mb-2 text-primary">Pro Choice </h3>
+                                    <p className="text-muted mb-0">
+                                        The government has no business regulating women’s bodies, women should have
+                                        the right to choose. I believe in our Constitution and I do not believe elected
+                                        officials should impose their religious beliefs on others. I am Catholic and
+                                        have my own personal beliefs, but I respect the 1st Amendment, I support
+                                        Roe v. Wade, and I believe women have the right to make their own decisions.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-8 col-md-6 text-center">
+
+                                <div className="mt-5">
+                                    <i className="fas fa-4x fa-equals text-secondary mb-4"></i>
+                                    <h3 className="h4 mb-2 text-primary">ERA </h3>
+                                    <p className="text-muted mb-0">
+                                        I support the Equal Rights Amendment. Everyone deserves the same respect,
+                                        the same rights, and the same pay for the same work.
                                     </p>
                                 </div>
                             </div>

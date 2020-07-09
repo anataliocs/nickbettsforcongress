@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import "./layout.scss"
 import {Link} from "@reach/router";
+import {Nav} from "react-bootstrap";
 
 const getScrollNode = (element) => {
   return element.ownerDocument.scrollingElement || element.ownerDocument.documentElement
@@ -84,6 +85,7 @@ export default class Layout extends React.Component {
 
             <div className="text-center well">
               <a href="/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+              <Nav.Link href="/news/" target="_blank">News</Nav.Link>
             </div>
           </div>
         </footer>
