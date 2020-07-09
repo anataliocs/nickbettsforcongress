@@ -4,6 +4,7 @@ import {graphql} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Scroller from "../components/scroller"
+import {Nav} from "react-bootstrap";
 
 export default class IndexPage extends React.Component {
     constructor(props) {
@@ -486,6 +487,20 @@ export default class IndexPage extends React.Component {
                                 <a className="d-block"
                                    href="https://forms.gle/7meLEw5DPm8trdAp7" target="_blank" rel="noopener noreferrer">
                                     Volunteer!</a>
+                            </div>
+                        </div><br/>
+
+                        <div className="row justify-content-center">
+                            <div className="col-lg-8 text-center">
+                                <br/>
+                                <hr className="divider my-4"/>
+                                <p className="text-muted mb-5">Read up on recent News about the Campaign</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-12 ml-auto text-center mb-5 mb-lg-0">
+                                <i className="fas fa-newspaper fa-3x mb-3 text-secondary"></i>
+                                <Nav.Link href="/news/" target="_blank">Media Coverage</Nav.Link>
                             </div>
                         </div>
                     </div>
