@@ -49,6 +49,11 @@ export default class IndexPage extends React.Component {
                                     <a href="https://fincastleherald.com/betts-is-democratic-candidate-for-sixth-district-house-of-representatives-race/"
                                        target="_blank" rel="noopener noreferrer">Betts is Democratic candidate for Sixth District House of Representatives race</a>
                                 </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://www.dnronline.com/news/cline-facing-two-challengers/article_30852cd6-647d-58ea-b153-885fae84c2bb.html"
+                                       target="_blank" rel="noopener noreferrer">Cline Facing Two Challengers</a>
+                                </p>
                             </div>
                         </div>
                     </div>
