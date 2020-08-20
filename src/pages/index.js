@@ -230,6 +230,16 @@ export default class IndexPage extends React.Component {
                                         </p>
                                     </p>
                                 </p>
+
+                                <p className="text-white-50 mb-4">
+                                    <hr className="divider my-4"/>
+                                    <i className="fas fa-2x fa-pen-nib"></i><br/>
+                                    <h5>Endorsements</h5>
+
+                                    <a href="https://www.senatordeeds.com/" target="_blank" rel="noopener noreferrer">
+                                        Senator Creigh Deeds(VA-25) </a>
+                                </p>
+
                                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#platform"
                                    onClick={Scroller.handleAnchorScroll}>
                                     <i className="fas fa-list"></i>&nbsp; My Platform
