@@ -54,6 +54,12 @@ export default class IndexPage extends React.Component {
                                     <a href="https://www.dnronline.com/news/cline-facing-two-challengers/article_30852cd6-647d-58ea-b153-885fae84c2bb.html"
                                        target="_blank" rel="noopener noreferrer">Cline Facing Two Challengers</a>
                                 </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://www.newsleader.com/story/opinion/readers/2020/08/21/vote-november-nicholas-betts-sixth-district-virginia-cline-staunton-waynesboro-augusta-letter/5619210002/
+"
+                                       target="_blank" rel="noopener noreferrer">Vote in November for Nicholas Betts!</a>
+                                </p>
                             </div>
                         </div>
                     </div>
