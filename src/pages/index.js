@@ -236,8 +236,15 @@ export default class IndexPage extends React.Component {
                                     <i className="fas fa-2x fa-pen-nib"></i><br/>
                                     <h5>Endorsements</h5>
 
+                                    <i className="fas fa-check-square"></i> &nbsp;
                                     <a href="https://www.senatordeeds.com/" target="_blank" rel="noopener noreferrer">
                                         Senator Creigh Deeds(VA-25) </a>
+
+                                    <br/>
+                                    <i className="fas fa-check-square"></i> &nbsp;
+                                    <a href="https://www.vayd.org/" target="_blank" rel="noopener noreferrer">
+                                        Virginia Young Democrats </a>
+
                                 </p>
 
                                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#platform"
