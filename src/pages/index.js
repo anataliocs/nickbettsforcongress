@@ -245,6 +245,18 @@ export default class IndexPage extends React.Component {
                                     <a href="https://www.vayd.org/" target="_blank" rel="noopener noreferrer">
                                         Virginia Young Democrats </a>
 
+                                    <br/>
+                                    <i className="fas fa-check-square"></i> &nbsp;
+                                    <a href="https://www.sam4roanoke.com/" target="_blank" rel="noopener noreferrer">
+                                        Sam Rasoul VA House 11th District
+                                    </a>
+
+                                    <br/>
+                                    <i className="fas fa-check-square"></i> &nbsp;
+                                    <a href="https://ballotpedia.org/Jennifer_Lewis" target="_blank" rel="noopener noreferrer">
+                                        Jennifer Lewis
+                                    </a>
+
                                 </p>
 
                                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#platform"
