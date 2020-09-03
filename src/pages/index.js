@@ -257,6 +257,7 @@ export default class IndexPage extends React.Component {
                                         Jennifer Lewis
                                     </a>
 
+                                    <br/>
                                 </p>
 
                                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#platform"
@@ -266,6 +267,21 @@ export default class IndexPage extends React.Component {
                             </div>
                         </div>
                     </div>
+
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-8 text-center">
+                                <blockquote className="twitter-tweet justify-content-center tw-align-center">
+                                    <p lang="en" dir="ltr" className="justify-content-center">I am proud to have the
+                                    support of <a href="https://twitter.com/JenniferForVA?ref_src=twsrc%5Etfw">@JenniferForVA</a>! <a
+                                        href="https://t.co/6A3xv54rUs">pic.twitter.com/6A3xv54rUs</a>
+                                </p>&mdash; Nicholas Betts (@VoteForBetts) <a
+                                    href="https://twitter.com/VoteForBetts/status/1301323861410144264?ref_src=twsrc%5Etfw">September
+                                    3, 2020</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+
                 </section>
 
                 <section className="page-section" id="platform">
