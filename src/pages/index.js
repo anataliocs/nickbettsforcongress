@@ -258,12 +258,13 @@ export default class IndexPage extends React.Component {
                                     </a>
 
                                     <br/>
-                                </p>
+                                    <i className="fas fa-check-square"></i> &nbsp;
+                                    <a href="https://cwa-union.org/ " target="_blank" rel="noopener noreferrer">
+                                        Communications Workers of America
+                                    </a>
 
-                                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#platform"
-                                   onClick={Scroller.handleAnchorScroll}>
-                                    <i className="fas fa-list"></i>&nbsp; My Platform
-                                </a>
+                                    <br/>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -278,6 +279,20 @@ export default class IndexPage extends React.Component {
                                 </p>&mdash; Nicholas Betts (@VoteForBetts) <a
                                     href="https://twitter.com/VoteForBetts/status/1301323861410144264?ref_src=twsrc%5Etfw">September
                                     3, 2020</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr className="divider my-4"/>
+                    <br/>
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-8 text-center">
+                                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#platform"
+                                   onClick={Scroller.handleAnchorScroll}>
+                                    <i className="fas fa-list"></i>&nbsp; My Platform
+                                </a>
                             </div>
                         </div>
                     </div>
