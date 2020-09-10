@@ -56,9 +56,18 @@ export default class IndexPage extends React.Component {
                                 </p>
 
                                 <p className="font-weight-light mb-5">
-                                    <a href="https://www.newsleader.com/story/opinion/readers/2020/08/21/vote-november-nicholas-betts-sixth-district-virginia-cline-staunton-waynesboro-augusta-letter/5619210002/
-"
+                                    <a href="https://www.newsleader.com/story/opinion/readers/2020/08/21/vote-november-nicholas-betts-sixth-district-virginia-cline-staunton-waynesboro-augusta-letter/5619210002/"
                                        target="_blank" rel="noopener noreferrer">Vote in November for Nicholas Betts!</a>
+                                </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://newsadvance.com/news/local/govt-and-politics/betts-cline-lay-out-visions-for-6th-congressional-district-in-campaign-stops-in-amherst/article_a9a7d7eb-f061-54d1-b380-fe411ae0d60f.html"
+                                       target="_blank" rel="noopener noreferrer">Betts, Cline lay out visions for 6th congressional district in campaign stops in Amherst</a>
+                                </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://newsadvance.com/community/new_era_progress/news/betts-lays-out-vision-for-6th-district-in-bid-to-unseat-incumbent-rep-cline/article_4e4f4811-4b80-5e09-9c58-82e2642c683d.html"
+                                       target="_blank" rel="noopener noreferrer">Betts lays out vision for 6th district in bid to unseat incumbent Rep. Cline</a>
                                 </p>
                             </div>
                         </div>
