@@ -213,7 +213,7 @@ export default class IndexPage extends React.Component {
                                         small family business,
                                         and now as a law clerk in Roanoke, Virginia. He knows what it is like to work
                                         hard and to achieve goals in
-                                        the face of adversity.
+                                        the face of adversity.<br/>
                                         <br/>
                                         <hr className="divider my-4"/>
                                         <i className="far fa-2x fa-handshake"></i>
@@ -227,14 +227,40 @@ export default class IndexPage extends React.Component {
                                                 play
                                                 politics.
                                             </h5>
+                                        </p><br/>
+
+                                        <p>
+                                            <br/>
+
+                                            <p>
+                                                <h4 className="text-white mt-0">
+                                                <i className="fas fa-2x fa-microphone-alt"></i><br/>
+                                                Interview with ABC</h4>
+                                                <hr className="divider my-4"/>
+                                                Watch ABC 13's Mark Spain sits down with Nicholas Betts to talk about his plans
+                                                for the 6th District should he win come November.<br/>
+                                            </p>
+
+                                            <p>
+                                                <br/>
+                                                <a  target="_blank" rel="noopener noreferrer"
+                                                    href="https://wset.com/news/beyond-the-podium/beyond-the-podium-nicholas-betts-democratic-challenger-6th-congressional-district?video=f4474daf-b107-421f-a7ca-47ba7a2f4a3c&jwsource=cl">
+                                                <i className="fas fa-3x fa-photo-video"/><br/>
+                                                ABC13: Beyond the Podium - Nicholas Betts, Democratic Challenger
+                                                    6th Congressional District
+                                                </a>
+                                            </p>
                                         </p>
                                     </p>
                                 </p>
 
+                                <br/>
                                 <p className="text-white-50 mb-4">
-                                    <hr className="divider my-4"/>
+
+                                    <h4 className="text-white mt-0">
                                     <i className="fas fa-2x fa-pen-nib"></i><br/>
-                                    <h5>Endorsements</h5>
+                                    Endorsements</h4>
+                                    <hr className="divider my-4"/>
 
                                     <i className="fas fa-check-square"></i> &nbsp;
                                     <a href="https://www.senatordeeds.com/" target="_blank" rel="noopener noreferrer">

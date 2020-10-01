@@ -90,6 +90,10 @@ export default class IndexPage extends React.Component {
                                        target="_blank" rel="noopener noreferrer">FLIP-A-DISTRICT FRIDAYS: VOLUME I</a>
                                 </p>
 
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://wset.com/news/beyond-the-podium/beyond-the-podium-nicholas-betts-democratic-challenger-6th-congressional-district"
+                                       target="_blank" rel="noopener noreferrer">Beyond the Podium - Nicholas Betts, Democratic Challenger 6th Congressional District</a>
+                                </p>
 
                             </div>
                         </div>
