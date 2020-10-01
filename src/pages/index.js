@@ -553,10 +553,11 @@ export default class IndexPage extends React.Component {
                                     <i className="fas fa-4x fa-microphone text-secondary mb-4"></i>
                                     <h3 className="h4 mb-2 text-primary">Debate for VA-6 @ Rotary Club of Harrisonburg</h3>
                                     <p className="text-muted mb-0">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3jAMcsdmDk0"
-                                                frameBorder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                allowFullScreen></iframe>
+
+                                        <div className='embed-container'>
+                                            <iframe src='https://www.youtube.com/embed/3jAMcsdmDk0' frameBorder='0'
+                                                    allowFullScreen></iframe>
+                                        </div>
                                     </p>
                                 </div>
                             </div>
