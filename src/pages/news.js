@@ -66,9 +66,31 @@ export default class IndexPage extends React.Component {
                                 </p>
 
                                 <p className="font-weight-light mb-5">
-                                    <a href="https://newsadvance.com/community/new_era_progress/news/betts-lays-out-vision-for-6th-district-in-bid-to-unseat-incumbent-rep-cline/article_4e4f4811-4b80-5e09-9c58-82e2642c683d.html"
-                                       target="_blank" rel="noopener noreferrer">Betts lays out vision for 6th district in bid to unseat incumbent Rep. Cline</a>
+                                    <a href="https://celebpie.com/nicholas-betts/"
+                                       target="_blank" rel="noopener noreferrer">Celebpie - Nicholas Betts: Male Politician</a>
                                 </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://www.dnronline.com/news/elections/rep-cline-betts-hold-virtual-forum/article_dc8ec2e9-9f4a-5aab-8eec-9af64b0feca8.html"
+                                       target="_blank" rel="noopener noreferrer">Rep. Cline, Betts Hold Virtual Forum</a>
+                                </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://hburgcitizen.com/2020/09/15/rep-cline-and-challenger-betts-talk-pandemic-climate-change-and-more-in-first-va-6-congressional-debate/"
+                                       target="_blank" rel="noopener noreferrer">Rep. Cline and challenger Betts talk pandemic, climate change and more in first VA-6 Congressional debate</a>
+                                </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://www.wdbj7.com/2020/09/15/6th-district-candidates-meet-in-virtual-forum/"
+                                       target="_blank" rel="noopener noreferrer">6th District candidates meet in virtual forum</a>
+                                </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://www.projectbluedominion.com/2020-volume-i"
+                                       target="_blank" rel="noopener noreferrer">FLIP-A-DISTRICT FRIDAYS: VOLUME I</a>
+                                </p>
+
+
                             </div>
                         </div>
                     </div>
