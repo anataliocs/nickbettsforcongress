@@ -168,7 +168,7 @@ export default class IndexPage extends React.Component {
                                 <hr className="divider my-4"/>
                                 <br/>
                                 <div className='embed-container'>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VFuGINlSqlw"
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VFuGINlSqlw?rel=0"
                                             frameBorder="0"
                                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowFullScreen></iframe>
