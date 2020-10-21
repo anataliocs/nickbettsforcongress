@@ -163,9 +163,20 @@ export default class IndexPage extends React.Component {
                                 </p>
 
                                 <i className="fas fa-2x text-secondary fa-flag-usa"/>
+
+                                <br/>
+                                <hr className="divider my-4"/>
+                                <br/>
+                                <div className='embed-container'>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VFuGINlSqlw"
+                                            frameBorder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowFullScreen></iframe>
+                                </div>
                             </div>
 
                         </div>
+
                     </div>
                 </section>
 

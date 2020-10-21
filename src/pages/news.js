@@ -95,6 +95,21 @@ export default class IndexPage extends React.Component {
                                        target="_blank" rel="noopener noreferrer">Beyond the Podium - Nicholas Betts, Democratic Challenger 6th Congressional District</a>
                                 </p>
 
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://royalexaminer.com/town-talk-a-conversation-with-nicholas-betts-democratic-candidate-for-congress-6th-district/"
+                                       target="_blank" rel="noopener noreferrer">Town Talk: A conversation with Nicholas Betts, Democratic candidate for Congress, 6th District</a>
+                                </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://www.wdbj7.com/2020/10/08/democratic-congressional-candidate-nicholas-betts-speaks-on-healthcare-education-prior-to-election/?fbclid=IwAR2NfnisMKWiag6rGfg4uM6Xjdh1llJu7HrJn6ZnHG-YklUlMtjLCxY-HUs"
+                                       target="_blank" rel="noopener noreferrer">Democratic congressional candidate Nicholas Betts speaks on healthcare, education, prior to election</a>
+                                </p>
+
+                                <p className="font-weight-light mb-5">
+                                    <a href="https://www.wvtf.org/post/6th-congressional-district-candidates-debate#stream/0"
+                                       target="_blank" rel="noopener noreferrer">6th Congressional District Candidates Debate</a>
+                                </p>
+
                             </div>
                         </div>
                     </div>
