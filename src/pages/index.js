@@ -546,6 +546,54 @@ export default class IndexPage extends React.Component {
                             </div>
 
                             <div className="col-lg-8 col-md-6 text-center">
+
+                                <div className="mt-5">
+                                    <i className="fas fa-4x fa-tractor text-secondary mb-4"></i>
+                                    <h3 className="h4 mb-2 text-primary">Agriculture </h3>
+                                    <p className="text-muted mb-0">
+                                        I support buying surplus food from farmers. Many people struggle with food
+                                        security at this time, and surplus food that is produced should be utilized
+                                        to help keep food on peoples’ tables.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-8 col-md-6 text-center">
+
+                                <div className="mt-5">
+                                    <i className="fas fa-4x fa-home text-secondary mb-4"></i>
+                                    <h3 className="h4 mb-2 text-primary">Affordable Housing </h3>
+                                    <p className="text-muted mb-0">
+                                        Many people have lost jobs or a substantial portion of their income due to
+                                        the economic effects of the COVID-19 pandemic, and we need to help people
+                                        keep a roof over their heads. We can accomplish this and stabilize housing
+                                        by having a Federal relief fund that pays Americans' overdue mortgage or
+                                        rent payments if they were adversely economically affected by the pandemic.
+                                        This plan would allow homeowners, renters, landlords, and banks to recover
+                                        equally from the economic effects of the pandemic.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-8 col-md-6 text-center">
+
+
+                                <div className="mt-5">
+                                    <i className="fas fa-4x fa-balance-scale text-secondary mb-4"></i>
+                                    <h3 className="h4 mb-2 text-primary">Protecting the Rights of Differently Abled People </h3>
+                                    <p className="text-muted mb-0">
+                                        We need to make sure that Federal law continues to protect people with
+                                        pre-existing health conditions against discrimination and provide affordable
+                                        healthcare to differently abled people. Police training programs need to
+                                        include training on engagement with differently abled people. Education
+                                        programs at all levels, including early childhood education, K-12 education,
+                                        and higher education, should all have sufficient resources for differently
+                                        abled people to excel within the education system.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-8 col-md-6 text-center">
                                 <br/>
                                 <hr className="divider my-4"/>
 
