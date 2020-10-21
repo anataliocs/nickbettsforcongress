@@ -263,6 +263,12 @@ export default class IndexPage extends React.Component {
                                     <hr className="divider my-4"/>
 
                                     <i className="fas fa-check-square"></i> &nbsp;
+                                    <a href="https://www.markwarnerva.com/" target="_blank" rel="noopener noreferrer">
+                                        Senator Mark Warner </a>
+
+                                    <br/>
+
+                                    <i className="fas fa-check-square"></i> &nbsp;
                                     <a href="https://www.senatordeeds.com/" target="_blank" rel="noopener noreferrer">
                                         Senator Creigh Deeds(VA-25) </a>
 
