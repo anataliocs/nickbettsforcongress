@@ -170,7 +170,7 @@ export default class IndexPage extends React.Component {
                                 <div className='embed-container'>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/VFuGINlSqlw"
                                             frameBorder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowFullScreen></iframe>
                                 </div>
                             </div>
